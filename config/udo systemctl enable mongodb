@@ -1,0 +1,11 @@
+[0;1;31m●[0m mongodb.service - MongoDB Database
+   Loaded: loaded (/etc/systemd/system/mongodb.service; disabled; vendor preset: enabled)
+   Active: [0;1;31mfailed[0m (Result: exit-code) since T3 2018-06-12 11:37:56 +07; 12s ago
+     Docs: https://docs.mongodb.org/manual
+  Process: 20326 ExecStart=/usr/bin/mongod --quiet --config /etc/mongod.conf [0;1;31m(code=exited, status=216/GROUP)[0m
+ Main PID: 20326 (code=exited, status=216/GROUP)
+
+Th06 12 11:37:56 MK-Ubuntu systemd[1]: Started MongoDB Database.
+Th06 12 11:37:56 MK-Ubuntu systemd[1]: [0;1;39mmongodb.service: Main process exited, code=exited, status=216/GROUP[0m
+Th06 12 11:37:56 MK-Ubuntu systemd[1]: [0;1;39mmongodb.service: Unit entered failed state.[0m
+Th06 12 11:37:56 MK-Ubuntu systemd[1]: [0;1;39mmongodb.service: Failed with result 'exit-code'.[0m
