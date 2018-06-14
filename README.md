@@ -29,7 +29,6 @@ Sign in to OpenShift and set enviroment variables Console > Applications > Deplo
 MONGO_DB_URL=MongoDB_URI
 MOVIES_LIST=SITE_URL_MOVIE_LIST
 HOME_URL=HOME_SITE_URL
-
 ```
 
 Then deploy it 
@@ -52,6 +51,3 @@ This project is licensed under the MIT License
 * Hat tip to anyone whose code was used
 * Inspiration
 * etc
-
-
-
