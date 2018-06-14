@@ -33,6 +33,18 @@ HOME_URL=HOME_SITE_URL
 
 Then deploy it 
 
+## How To Use
+Get list hentai by page number
+
+```
+http://mk-mkz.7e14.starter-us-west-2.openshiftapps.com/list-movie/?PageNum
+http://mk-mkz.7e14.starter-us-west-2.openshiftapps.com/list-movie/1
+```
+Refresh Database
+
+```
+http://mk-mkz.7e14.starter-us-west-2.openshiftapps.com/refresh-db
+```
 ## Built With
 
 * [Node](https://github.com/nodejs/node) - ServerSide 
@@ -51,5 +63,3 @@ This project is licensed under the MIT License
 * Hat tip to anyone whose code was used
 * Inspiration
 * etc
-
-
